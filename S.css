@@ -1,0 +1,99 @@
+*{
+
+}
+body{	background: url('home.jpg')  ;
+		background-size:  110%;
+		margin: 0 auto;
+
+		padding: 0;
+
+
+
+}
+a{
+	text-decoration: none;
+	color: white;
+
+}
+input{
+	width: 290px;
+	border-left: none;
+	border-top: none;
+	border-right:none;
+	background:unset;  
+
+
+}
+button{padding:10px;
+		padding-left:10px;
+		padding-right: 10px;
+		border: none;
+
+		border-radius :50px;
+
+		background-image: linear-gradient;
+
+	background-color: #375BB0;
+}
+
+#bb{ 	
+	background-image: linear-gradient(45deg,#D4EBF0,#BDDBF0,#9FC2F0,#82B0F0,#6EA2F0,#6180F0,#676DF0,#8464F0,#8464F0,#E360F0,#A83CF0,#FA2A1A,#FA4E10);
+	background-position: right;
+
+	box-shadow: 20px 20px 20px rgba(1,1,1,5);
+
+	border: solid 1px;
+	width: 300px;
+	height:400px;
+	margin: 0 auto;
+
+	padding: 0;
+	color: black ;
+	background-position: center;
+	background-size: 2000px;
+
+	background-color: white ;
+}
+#bb:hover{	animation: hover 10s infinite;
+
+
+}
+@keyframes hover{
+	0%{
+			background-position: right;
+
+	}
+	100%{
+			background-position: left;
+
+	}
+
+}
+
+#n{	background-image: linear-gradient(45deg,#D4EBF0,#BDDBF0,#9FC2F0,#E360F0,#A83CF0,#FA2A1A,#FA4E10);
+	background-position: left;
+
+	height: 35px;
+	background-color: #E8E4ED;
+	color:black;
+	
+	background-size: 3500px;
+
+}
+
+#n:hover{	animation: hover 10s infinite;
+
+
+}
+@keyframes hover{
+	0%{
+			background-position: left;
+
+	}
+	100%{
+			background-position: right;
+
+	}
+}
+
+
